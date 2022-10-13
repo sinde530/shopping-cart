@@ -1,14 +1,14 @@
-import styled from "@emotion/styled";
+import styled from '@emotion/styled';
 
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 const Ul = styled.ul({
   // marginLeft: "auto",
-  display: "flex",
+  display: 'flex',
 });
 
 const Li = styled.li({
-  padding: "16px 16px",
+  padding: '16px 16px',
 });
 
 export default function ListItem() {

@@ -1,4 +1,4 @@
-import { useCallback, useState } from "react";
+import { useCallback, useState } from 'react';
 // import { createUser } from "src/api/users";
 import {
   Box,
@@ -8,13 +8,13 @@ import {
   ErrorMessage,
   Input,
   RegisterText,
-} from "./styled";
+} from './styled';
 
 export default function Register() {
-  const [email, setEmail] = useState<string>("");
-  const [name, setName] = useState<string>("");
-  const [password, setPassword] = useState<string>("");
-  const [confirmPassword, setConfirmPassword] = useState<string>("");
+  const [email, setEmail] = useState<string>('');
+  const [name, setName] = useState<string>('');
+  const [password, setPassword] = useState<string>('');
+  const [confirmPassword, setConfirmPassword] = useState<string>('');
   const [mismatchError, setMismatchError] = useState<boolean>(false);
 
   const handleChangeEmail = useCallback((e: any) => {
@@ -31,14 +31,14 @@ export default function Register() {
       setPassword(e.target.value);
       setMismatchError(e.target.value !== confirmPassword);
     },
-    [confirmPassword]
+    [confirmPassword],
   );
   const handleChangeConfirmPassword = useCallback(
     (e: any) => {
       setConfirmPassword(e.target.value);
       setMismatchError(e.target.value !== password);
     },
-    [password]
+    [password],
   );
 
   const onSubmit = useCallback(async (e: any) => {

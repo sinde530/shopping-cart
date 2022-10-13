@@ -1,4 +1,4 @@
-import axios from "axios";
+import axios from 'axios';
 
 // eslint-disable-next-line import/prefer-default-export
 export async function postCats() {

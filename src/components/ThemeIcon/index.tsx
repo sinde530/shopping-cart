@@ -1,6 +1,6 @@
-import { BsFillSunFill, BsFillMoonFill } from "react-icons/bs";
+import { BsFillSunFill, BsFillMoonFill } from 'react-icons/bs';
 
-import { Icon, IconBox } from "./styled";
+import { Icon, IconBox } from './styled';
 
 interface Props {
   isDarkMode: boolean;

@@ -1,7 +1,7 @@
-import { Link } from "react-router-dom";
-import { ProductsType } from "src/types/Products";
+import { Link } from 'react-router-dom';
+import { ProductsType } from 'src/types/Products';
 
-import { CardBox, Image, TextBox, Description, Price } from "./styles";
+import { CardBox, Image, TextBox, Description, Price } from './styles';
 
 interface Props {
   items: ProductsType;

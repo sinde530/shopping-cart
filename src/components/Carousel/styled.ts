@@ -1,11 +1,11 @@
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import styled from "@emotion/styled";
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import styled from '@emotion/styled';
 
-import Slider from "react-slick";
+import Slider from 'react-slick';
 
 export const Container = styled.div({
-  width: "100%",
+  width: '100%',
 });
 
 export const SliderBox = styled(Slider)`
@@ -63,6 +63,6 @@ export const SliderBox = styled(Slider)`
 `;
 
 export const Image = styled.img({
-  width: "100%",
-  height: "400px",
+  width: '100%',
+  height: '400px',
 });

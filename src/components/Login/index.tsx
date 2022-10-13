@@ -1,4 +1,4 @@
-import GoogleLogin from "react-google-login";
+import GoogleLogin from 'react-google-login';
 import {
   Button,
   ButtonWrapper,
@@ -6,7 +6,7 @@ import {
   Input,
   InputBox,
   LoginText,
-} from "./styled";
+} from './styled';
 
 export default function Login() {
   const failedGoogle = (res: any) => {
@@ -14,7 +14,7 @@ export default function Login() {
   };
 
   const successLogin = () => {
-    alert("성공");
+    alert('성공');
   };
 
   return (

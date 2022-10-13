@@ -1,9 +1,9 @@
 /* eslint-disable react/jsx-props-no-spreading */
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
-import SlideItem from "src/api/slide";
+import SlideItem from 'src/api/slide';
 
-import { Container, SliderBox, Image } from "./styled";
+import { Container, SliderBox, Image } from './styled';
 
 export default function Carousel() {
   const settings = {

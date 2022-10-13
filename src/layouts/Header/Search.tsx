@@ -1,23 +1,23 @@
-import styled from "@emotion/styled";
+import styled from '@emotion/styled';
 
 const Form = styled.form({
-  position: "relative",
-  marginLeft: "auto",
-  marginRight: "1rem",
+  position: 'relative',
+  marginLeft: 'auto',
+  marginRight: '1rem',
 });
 
 const Input = styled.input({
-  width: "180px",
-  height: "28px",
-  border: "2px solid #000",
-  borderRadius: "9px",
+  width: '180px',
+  height: '28px',
+  border: '2px solid #000',
+  borderRadius: '9px',
 });
 
 const SearchImage = styled.img({
-  position: "absolute",
-  right: "0",
-  width: "35px",
-  cursor: "pointer",
+  position: 'absolute',
+  right: '0',
+  width: '35px',
+  cursor: 'pointer',
 });
 
 const handleSearch = () => {

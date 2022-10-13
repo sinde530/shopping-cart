@@ -1,7 +1,7 @@
-import Product from "src/components/Product";
-import { Container, Section, Title } from "./styles";
+import Product from 'src/components/Product';
+import { Container, Section, Title } from './styles';
 
-import Carousel from "../../components/Carousel";
+import Carousel from '../../components/Carousel';
 
 export default function Home() {
   return (
